@@ -88,7 +88,7 @@
 
 Você pode visualizar o projeto diretamente no navegador sem precisar baixar:
 
-➡️ [Clique aqui para acessar](https://consulta-cep-react-smoky.vercel.app/) 
+➡️ [Clique aqui para acessar](https://formulario-react-two-zeta.vercel.app/) 
 
 ## 💪 Como contribuir para o projeto
 
