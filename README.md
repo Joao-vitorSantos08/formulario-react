@@ -15,7 +15,8 @@
 
 
 ## 💻 Sobre o projeto
- Formulário simples criado com React utilizando Hooks (`useState`).
+ Este projeto foi desenvolvido a partir de um exercício do curso de React da Udemy, com foco em manipulação de formulários.  
+A partir da base apresentada em aula, realizei adaptações e melhorias próprias, aplicando controle de estado com `useState`, validação de campos, limpeza do formulário após o envio e organização do projeto utilizando Vite e GitHub.
 
 ## 📄 Descrição do Entregável (React + Vite)
 
