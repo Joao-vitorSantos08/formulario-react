@@ -53,7 +53,7 @@ const App = () => {
         <input type="password" name="senha" value={senha} onChange={trocarSenha} placeholder="Digite sua senha" />
 
 
-        <button type="submit" disabled={!nome || !email || !senha}>
+        <button type="submit">
           Enviar
         </button>
 
