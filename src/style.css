@@ -78,3 +78,22 @@ button:hover {
     transform: translate(-50%, -50%);
     left: 50%;
 }
+
+
+@media (max-width: 768px) {
+    img {
+        object-fit: cover;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    .mensagem{
+        top: 80%;
+        width: 300px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+}
