@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import "./style.css";
+import fundo from './assets/image/imagemBody.jpg'
 
 const App = () => {
 
   const [nome, setNome] = useState("")
   const [email, setEmail] = useState("")
   const [senha, setSenha] = useState("")
+  const [mensagem, setMensagem] = useState("")
 
   const trocaNome = (e) => {
     setNome(e.target.value)
@@ -26,19 +28,22 @@ const App = () => {
     e.preventDefault()
 
     if (nome !== "" && email !== "" && senha != "") {
-      alert("Formúlario enviado com Sucesso!")
+      setMensagem("Cadastro realizado com sucesso!")
       setNome("")
       setEmail("")
       setSenha("")
     } else {
-      alert("Preencha o formulário completo antes de enviar")
+      setMensagem("Por favor, preencha todos os campos obrigatórios.")
     }
   }
 
 
 
   return (
-    <div>
+    <div className="container">
+
+      <img src={fundo} />
+
       <form onSubmit={submit}>
 
 
@@ -57,8 +62,10 @@ const App = () => {
           Enviar
         </button>
 
-
       </form>
+
+
+      <h3 className="mensagem">{mensagem}</h3>
 
     </div>
   )
